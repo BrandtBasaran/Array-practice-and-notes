@@ -47,7 +47,7 @@ const ages = [33, 12, 20, 16, 5, 54, 21, 44, 61, 13, 15, 45, 25, 64, 32];
       // console.log(canDrink);
 
   //Filter retail companies***
-
+  
       // const retailCompanies = companies.filter(company => company.category === 'Retail');
 
       // console.log(retailCompanies);
@@ -60,12 +60,34 @@ const ages = [33, 12, 20, 16, 5, 54, 21, 44, 61, 13, 15, 45, 25, 64, 32];
 
   //Get companies with > 10 year tenure***
 
-    const longCompanies = companies.filter(company => (company.end - company.start > 10));
+    // const longCompanies = companies.filter(company => (company.end - company.start > 10));
 
-    console.log(longCompanies);
+    // console.log(longCompanies);
 
 
 //map
+
+  //Create array of company names
+
+    // const testMap = companies.map(function(company) {
+    //   return `${company.name}, [${company.start} - ${company.end}]`;
+    // });
+
+    // console.log(testMap);
+
+    // const companyNames = companies.map(company => `${company.name} [${company.start} - ${company.end}]`)
+
+    // console.log(companyNames);
+
+  
+    // const ageMath = ages
+    //   .map(age => Math.sqrt(age))
+    //   .map(age => age * 2);
+
+    // console.log(ageMath);
+
+// STOPPED AT 21:00 of JavaScript Higher Order Functions & Arrays on YouTube
+   
 
 
 
